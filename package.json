@@ -8,12 +8,12 @@
         "mediacenterjs",
         "nodejs"
     ],
-    "homepage": "https://github.com/jansmolders86/mediacenterjs-soccer",
+    "homepage": "https://github.com/pocketJake/mediacenterjs-soccer",
     "bugs": {
-        "url": "https://github.com/jansmolders86/mediacenterjs-soccer/issues"
+        "url": "https://github.com/pocketJake/mediacenterjs-soccer/issues"
     },
     "author": {
-        "name": "Jan Smolders"
+        "name": "pocketJake"
     },
     "repository": {
         "type": "git",
