@@ -1,0 +1,33 @@
+doctype 5
+html(lang="en")
+	head
+		// Core inclusion
+		link(rel='stylesheet', href='/core/css/style.css')
+		script(src="/core/js/jquery-1.8.2.min.js")
+        script(src="/core/js/plugins/socket.io.min.js")
+        script(src="/core/js/plugins/jquery/jquery.scrollintoview.min.js")
+        script(src="/core/js/plugins/jquery/jquery.idle-timer.js")
+        script(src="/core/js/plugins/jquery/jquery.i18n.properties.-1.0.9.js")
+		script(src="/core/js/jquery.mcjs.core.js")
+		link(href="http://vjs.zencdn.net/4.3/video-js.css", rel="stylesheet")
+        script(src="http://vjs.zencdn.net/4.3/video.js")
+		
+		// App specific
+		link(rel='stylesheet', href='/mediacenterjs-soccer/public/css/style.css')
+		
+		title Soccer
+		
+		script.
+			$(function(){
+				$('body').mcjs();
+			});
+	body
+		#header
+			a.backlink(href="/") &#xe113;
+			h1 Plugin Title
+
+		#wrapper
+			video#player.video-js.vjs-default-skin(width="50%", height="50%", controls, preload="metadata")
+				source(url="http://213.254.202.15/flv/534a933788cab/testat123.flv",type="video/flv")
+			
+
