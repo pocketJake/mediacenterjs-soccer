@@ -1,6 +1,6 @@
 {
     "name": "mediacenterjs-soccer",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Watch streaming soccer",
     "keywords": [
         "soccer",
@@ -13,11 +13,11 @@
         "url": "https://github.com/pocketJake/mediacenterjs-soccer/issues"
     },
     "author": {
-        "name": "pocketJake"
+        "name": "Jan Smolders"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/jansmolders86/mediacenterjs-soccer.git"
+        "url": "git://github.com/pocketJake/mediacenterjs-soccer.git"
     },
     "peerDependencies": {
         "mediacenterjs": "*"
