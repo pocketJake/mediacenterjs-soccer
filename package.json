@@ -1,6 +1,6 @@
 {
     "name": "mediacenterjs-soccer",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Watch streaming soccer",
     "keywords": [
         "soccer",
@@ -8,17 +8,9 @@
         "mediacenterjs",
         "nodejs"
     ],
-    "homepage": "https://github.com/pocketJake/mediacenterjs-soccer",
-    "bugs": {
-        "url": "https://github.com/pocketJake/mediacenterjs-soccer/issues"
-    },
     "author": {
-        "name": "Jan Smolders"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/pocketJake/mediacenterjs-soccer.git"
-    },
+        "name": "PocketJake"
+    }
     "peerDependencies": {
         "mediacenterjs": "*"
     },
